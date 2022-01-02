@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+p,
+input,
+span {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  position: absolute;
+  opacity: 0;
+  user-select: none;
+}
+
+:root {
+  font-size: 16px;
+  --f-size-section-title: 1.5rem;
+  --f-size-section-title-2: 1.3rem;
+  --f-size-overview-title: 14px;
+  --f-size-username: 12px;
+  --f-size-number: 3rem;
+  --f-size-number2: 2rem;
+  --f-size-followers: 1rem;
+}
